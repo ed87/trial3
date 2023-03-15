@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        My first web page
+    </title>
+
+
+    <style>
+        #logo {
+            height: 32px;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="starlight logo" src="https://i.imgur.com/fMGVpco.jpeg" />
+
+    </div>
+    <img id="banner" src="banner.jpg.png" alt="Banner" height="240">
+
+    <h1 style="text-align:center; color: darkblue ">
+        Welcome to Starlight
+    </h1>
+
+    <div id="about">
+
+        <div id="description">
+
+
+            <p style="margin-top: 0;">
+                Starlight is the light emitted by stars. It typically refers
+                to visible <b>0~unilimited</b> electromagnetic radiation</p>
+
+            although a component of starlight is observable from Earth during daytime.
+            <ol>
+                <li>
+                    <a href="https://www.starlight.org.uk/" target="_blank">
+                        sun
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Sunset" target="_blank">
+                        sunset
+                    </a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Sun" target="_blank">
+                        starlight
+                    </a>
+
+
+                </li>
+            </ol>
+            </p>
+
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg.jpg" alt="Team">
+
+        </div>
+    </div>
+
+
+    <h2 style="text-align:center; color: darkblue ">
+
+        Job opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job title </th>
+                <th colspan="2"> Location </th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">posted on</th>
+            </tr>
+
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+
+
+
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Addis Ababa</td>
+                <td>Ethiopia</td>
+                <td> $13,000 </td>
+                <td> mar 9, 2023 </td>
+
+
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td> Full stack Developer</td>
+                <td>Bahir dar</td>
+                <td>Ethopia</td>
+                <td> $15,000 </td>
+                <td> feb 9, 2023 </td>
+
+
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Cyber specialist</td>
+                <td>Gonder</td>
+                <td>Ethiopia</td>
+                <td> $175,000 </td>
+                <td> mar 9, 2023 </td>
+
+
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Machine learning</td>
+                <td colspan="2">remote</td>
+                <td> $80,000 </td>
+                <td> mar 9, 2023 </td>
+
+
+            </tr>
+
+
+        </table>
+
+
+    </div>
+    <div id="Application">
+        <h2>Submit your Application</h2>
+        <form 
+        id="application-form" 
+        action="https://formbold.com/s/oYqlQ"
+        method="post"
+        enctype="multipart/form-data"
+        >
+
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Adu Yimam">
+            </div>
+            <div class="form-group">
+                <label for="email">Email </label><br>
+                <input type="email" id="email" name="email" required placeholder="aduye@gmail.com">
+            </div>
+
+            <div class="form-group">
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+            </div>
+
+            <div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+            </div>
+
+            <div class="form group">
+                <label for="position">Position applied</label><br>
+                <select>
+                    <option>Frontend developer </option>
+                    <option>Full stack developer </option>
+                    <option>Cyber specialist </option>
+                    <option>Machine learning</option>
+                </select>
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label><br>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="coverletter">Cover Letter</label><br>
+                    <textarea id="coverletter" name="coverletter" rows="5" required
+                        placeholder="Explain what makes you suitable for the job.."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+
+        </form>
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                    <a href="https://www.coursera.org/courses" target="_blank">
+                        courses
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="https://www.merriam-webster.com/dictionary/program" target="_blank">
+                        programs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">
+                        youtube
+                    </a>
+                </li>
+            </ul>
+            <samp class="copyright">©2023 starlight</samp>
+
+        </div>
+</body>
+
+</html>
